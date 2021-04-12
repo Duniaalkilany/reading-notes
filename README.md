@@ -36,3 +36,6 @@
 
 2. Making Changes
 
+### you can see in detailes how to getting start with GitHub pages by visit this link : 
+[google](https://guides.github.com/features/pages/)
+
