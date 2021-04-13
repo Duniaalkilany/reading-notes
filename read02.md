@@ -63,7 +63,7 @@
 
 ### Getting Help
 
-# Workflow
+## Workflow
 ### The local Git repository has three components:
 1. Working Directory: The actual files reside here.
 2. Index: The area used for staging
