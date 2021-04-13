@@ -17,7 +17,7 @@
        1. Committed 
        2. Modified
        3. staged.
-![gitstates](https://coderz.ca/progit/images/areas.png) 
+![gitstatus](https://coderz.ca/progit/images/areas.png) 
 
 # History of Git : Since its inception in 2005, Git has become one of the most utilized Version Control Systems in the world.
 - Git traces its roots to the open source software project Linux kernel. Developers of this project began using a DVCS called BitKeeper in 2002.
