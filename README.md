@@ -13,8 +13,6 @@ read 02 |[Version control with GIT](https://duniaalkilany.github.io/reading-note
 read 03 |[HTML & CSS](https://duniaalkilany.github.io/reading-notes/read03)
 read 04a|[javascript](https://duniaalkilany.github.io/reading-notes/read04a) 
 read 04b|[How computer work](https://duniaalkilany.github.io/reading-notes/read04b)
+read 05| [comparison and logical operators](https://duniaalkilany.github.io/reading-notes/read05)
 
-read 05| [comparison and logical operators](https://duniaalkilany.github.io/reading-notes/read05)
-=======
-read 05| [comparison and logical operators](https://duniaalkilany.github.io/reading-notes/read05)
 
