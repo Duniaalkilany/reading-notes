@@ -14,5 +14,7 @@ read 03 |[HTML & CSS](https://duniaalkilany.github.io/reading-notes/read03)
 read 04a|[javascript](https://duniaalkilany.github.io/reading-notes/read04a) 
 read 04b|[How computer work](https://duniaalkilany.github.io/reading-notes/read04b)
 read 05| [comparison and logical operators](https://duniaalkilany.github.io/reading-notes/read05)
+read06|[Programming with JavaScript](https://duniaalkilany.github.io/reading-notes/read06)
+read07|[Design web pages with CSS](https://duniaalkilany.github.io/reading-notes/read07)
 
 
