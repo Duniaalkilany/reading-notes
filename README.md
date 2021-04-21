@@ -16,5 +16,6 @@ read 04b|[How computer work](https://duniaalkilany.github.io/reading-notes/read0
 read 05| [comparison and logical operators](https://duniaalkilany.github.io/reading-notes/read05)
 read06|[Programming with JavaScript](https://duniaalkilany.github.io/reading-notes/read06)
 read07|[Design web pages with CSS](https://duniaalkilany.github.io/reading-notes/read07)
+read09|[The Coder's Computer](https://duniaalkilany.github.io/reading-notes/read09)
 
 
