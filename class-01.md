@@ -1,5 +1,5 @@
 # Introductory HTML and JavaScript
-#HTML& CSS
+# HTML& CSS
 # Structure
 
 ![gitstatus](https://www.oreilly.com/library/view/learning-web-design/9781449337513/httpatomoreillycomsourceoreillyimages2257981.png)
