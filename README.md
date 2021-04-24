@@ -10,7 +10,7 @@ I hope to pass all classes, develop myself in this field and get a good job oppo
 ## Table of contenet
 |NO.|Read|
 |---|------|
-read01|[]()
+read01|[Introductory HTML and JavaScript](https://duniaalkilany.github.io/reading-notes/class-01)
 read02 |[]()
 read03 |[]()
 read04|[]() 
