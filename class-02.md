@@ -8,8 +8,7 @@
 the page (e.g. headings, subheadings, paragraphs).
 * They also provide semantic information (e.g. where emphasis should be placed, the definition of any acronyms used, when given text is a quotation).
 
-**how to add markup to the text that 
-appears on your pages: **
+**how to add markup to the text that appears on your pages: **
 
  1.  Structural markup: the elements that you can use to 
 describe both headings and paragraphs
@@ -26,12 +25,12 @@ paragraph with an opening <p> tag and closing </p> tag.
 ![img](44.png)
 
 ## Bold & Italic
- **<b> :**
+ ** <b> :**
 By enclosing words in the tags <b> and </b> we can make 
 characters appear bold.The <b> element also represents 
 a section of text that would be presented in a visually different way (for example key words in a paragraph) although the use of the <b> element does not imply any additional meaning
 
-**<i> :**
+** <i> :**
 By enclosing words in the tags <i> and </i> we can make 
 characters appear italic.The <i> element also represents 
 a section of text that would be said in a different way from surrounding content — such as technical terms, names of ships, foreign words, thoughts, or other terms that would usually be italicized
@@ -39,13 +38,13 @@ a section of text that would be said in a different way from surrounding content
 ![img](55.png)
 
 ## Superscript & SubscripT
-**<sup>:**
+### <sup>: 
 The <sup> element is used to contain characters that 
 should be superscript such as the suffixes of dates or 
 mathematical concepts like raising a number to a power such 
 as 2^2.
 
-**<sub>:**
+### <sub>: 
 The <sub> element is used to contain characters that should 
 be subscript. It is commonly used with foot notes or chemical formulas such as H2O
 ![img](66.png)
@@ -54,21 +53,21 @@ be subscript. It is commonly used with foot notes or chemical formulas such as H
 ![img](77.png)
 
 ## Line Breaks & Horizontal Rules
-**<br />**
-As you have already seen, the browser will automatically show each new paragraph or heading on a new line. But if you wanted to add a line break inside the middle of a paragraph you can use the line break tag <br />.
+### <br /> 
+As you have already seen, the browser will automatically show each new paragraph or heading on a new line. But if you wanted to add a line break inside the middle of a paragraph you can use the line break tag  br /.
 
-**<hr />**
+### <hr />
 To create a break between themes — such as a change of 
 topic in a book or a new scene in a play — you can add a 
-horizontal rule between sections using the <hr /> tag.
+horizontal rule between sections using the hr / tag.
 
 ## OTHERS TEXT TAGS :
-* Changes to CONTENT <ins> , <del> , <s>
-* Author Details <address>
-* Citations & Definitions <cite> , <dfn>
-* Abbreviations & Acronyms <abbr>
-* Quotations <blockquote> , <q>
-* Strong & Emphasis <strong> ,<em> 
+* Changes to CONTENT **ins , del , s**
+* Author Details ** address**
+* Citations & Definitions  **cite , dfn**
+* Abbreviations & Acronyms  **abbr**
+* Quotations **blockquote , q**
+* Strong & Emphasis **strong ,em** 
 
 # Introducing CSS
 **CSS Associates Style rules with HTML elements**
