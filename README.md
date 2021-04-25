@@ -11,7 +11,7 @@ I hope to pass all classes, develop myself in this field and get a good job oppo
 |NO.|Read|
 |---|------|
 read01|[Introductory HTML and JavaScript](https://duniaalkilany.github.io/reading-notes/class-01)
-read02 |[]()
+read02 |[Basics of HTML, CSS & JS]()
 read03 |[]()
 read04|[]() 
 read05|[]()
