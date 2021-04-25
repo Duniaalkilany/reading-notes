@@ -25,26 +25,32 @@ paragraph with an opening <p> tag and closing </p> tag.
 ![img](44.png)
 
 ## Bold & Italic
- ** <b> :**
-By enclosing words in the tags <b> and </b> we can make 
-characters appear bold.The <b> element also represents 
-a section of text that would be presented in a visually different way (for example key words in a paragraph) although the use of the <b> element does not imply any additional meaning
+### <b> :
+By enclosing words in the tags ***<b> and </b>*** we can make 
+characters appear bold.The ***<b>*** element also represents 
+a section of text that would be presented in a visually different way (for example key words in a paragraph) although the use of the ***<b>*** element does not imply any additional meaning
 
-** <i> :**
-By enclosing words in the tags <i> and </i> we can make 
-characters appear italic.The <i> element also represents 
+### <i> :
+By enclosing words in the tags ***<i> and </i>*** we can make 
+characters appear italic.The **<i>** element also represents 
 a section of text that would be said in a different way from surrounding content — such as technical terms, names of ships, foreign words, thoughts, or other terms that would usually be italicized
 
 ![img](55.png)
 
 ## Superscript & SubscripT
+
 ### <sup>: 
+
+
 The <sup> element is used to contain characters that 
 should be superscript such as the suffixes of dates or 
 mathematical concepts like raising a number to a power such 
 as 2^2.
 
+
 ### <sub>: 
+
+
 The <sub> element is used to contain characters that should 
 be subscript. It is commonly used with foot notes or chemical formulas such as H2O
 ![img](66.png)
@@ -53,8 +59,10 @@ be subscript. It is commonly used with foot notes or chemical formulas such as H
 ![img](77.png)
 
 ## Line Breaks & Horizontal Rules
+
 ### <br /> 
 As you have already seen, the browser will automatically show each new paragraph or heading on a new line. But if you wanted to add a line break inside the middle of a paragraph you can use the line break tag  br /.
+
 
 ### <hr />
 To create a break between themes — such as a change of 
@@ -69,8 +77,9 @@ horizontal rule between sections using the hr / tag.
 * Quotations **blockquote , q**
 * Strong & Emphasis **strong ,em** 
 
+
 # Introducing CSS
-**CSS Associates Style rules with HTML elements**
+** CSS Associates Style rules with HTML elements **
 
 * CSS treats each HTML element as if it appears inside 
 its own box and uses rules to indicate how that element should look.
