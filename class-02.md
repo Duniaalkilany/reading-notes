@@ -17,14 +17,14 @@ describe both headings and paragraphs
  2.  Semantic markup: which provides extra information; such as where emphasis is placed in a sentence, that something you have written is a quotation (and who said it), the meaning of acronyms, and so on .
 
  ## Headings 
- ![img](33.png)
+ ![img](imgs/33.png)
  
 
 
  ## paragraphs
 To create a paragraph, surround the words that make up the paragraph with an opening < p > tag and closing < p > tag.
 
-![img](44.png)
+![img](imgs/44.png)
 
 
 
@@ -36,7 +36,7 @@ By enclosing words in the tags ***< b >*** and ***< /b >*** we can make characte
 By enclosing words in the tags ***< i >*** and ***< /i>*** we can make characters appear italic.The ***< i >*** element also represents 
 a section of text that would be said in a different way from surrounding content — such as technical terms, names of ships, foreign words, thoughts, or other terms that would usually be italicized
 
-![img](55.png)
+![img](imgs/55.png)
 
 ## Superscript & SubscripT
 
@@ -51,10 +51,10 @@ mathematical concepts like raising a number to a power such as 2^2.
 The ***< sub>*** element is used to contain characters that should be subscript. It is commonly used with foot notes or chemical formulas such as H2O .
 
 
-![img](66.png)
+![img](imgs/66.png)
 
 ## White Space
-![img](77.png)
+![img](imgs/77.png)
 
 ## Line Breaks & Horizontal Rules
 
@@ -97,7 +97,7 @@ although they may appear within an HTML page
 
 
 # Basic javascript instructures
-![java](88.png)
+![java](imgs/88.png)
 
 * A script is made up of a series of statements. Each
   statement is like a step in a recipe.
