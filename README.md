@@ -12,7 +12,7 @@ I hope to pass all classes, develop myself in this field and get a good job oppo
 |---|------|
 read01|[Introductory HTML and JavaScript](https://duniaalkilany.github.io/reading-notes/class-01)
 read02 |[Basics of HTML, CSS & JS](https://duniaalkilany.github.io/reading-notes/class-02)
-read03 |[]()
+read03 |[HTML Lists, Control Flow with JS, and the CSS Box Model](https://duniaalkilany.github.io/reading-notes/class-03)
 read04|[]() 
 read05|[]()
 read06|[]()
