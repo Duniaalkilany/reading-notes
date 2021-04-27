@@ -82,7 +82,7 @@ It is common to do entire web layouts using the CSS float property. Float is eas
 ## CSS Flexbox Layout
 Use of flexbox ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
 
-![flexbox](https://labs.tadigital.com/wp-content/uploads/2020/06/featured-image.jpg)
+![flexbox](https://ishadeed.com/assets/grid-flex/grid-vs-flexbox-1.png)
 
 ## CSS Grid Layout
 
