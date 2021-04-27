@@ -140,15 +140,16 @@ The CSS Grid Layout Module offers a grid-based layout system, with rows and colu
 
 ## What are the benefits of pair programming?
 ## Pair Programming Advantages :
-* ## Two heads are better than one. If the driver encounters a hitch with the code, there will be two of them who'll solve the problem.
-* ## More efficient. ...
-* ## Fewer coding mistakes. ...
-* ## An effective way to share knowledge. ...
-* ## Develops your staff's interpersonal skills
+1. ## Two heads are better than one. If the driver encounters a hitch with the code, there will be two of them who'll solve the problem.
+2. ## More efficient. ...
+3. ## Fewer coding mistakes. ...
+4. ## An effective way to share knowledge. ...
+5. ## Develops your staff's interpersonal skills
 
 ![PAIR PROGRAMMING](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOKlAcGW_Rs4AM9yiuN0vchQ64rHviS48a6g&usqp=CAU)
 
 
 **visit this link to know more about pair programming :**
+
 [pair programming](https://en.wikipedia.org/wiki/Pair_programming)
 
