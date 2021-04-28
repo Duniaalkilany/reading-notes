@@ -14,7 +14,7 @@ read01|[Introductory HTML and JavaScript](https://duniaalkilany.github.io/readin
 read02 |[Basics of HTML, CSS & JS](https://duniaalkilany.github.io/reading-notes/class-02)
 read03 |[HTML Lists, Control Flow with JS, and the CSS Box Model](https://duniaalkilany.github.io/reading-notes/class-03)
 read04|[HTML Links, JS Functions, and Intro to CSS Layout](https://ishadeed.com/assets/grid-flex/grid-vs-flexbox-1.png) 
-read05|[]()
+read05|[Images, Color, Text](https://duniaalkilany.github.io/reading-notes/class-05)
 read06|[]()
 read07|[]()
 read08|[]()
