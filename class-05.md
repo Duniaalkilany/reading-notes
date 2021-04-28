@@ -80,7 +80,7 @@
 
 ## **Three Rules for Creating Images**
 
-1. Save images in the right format :
+1.  Save images in the right format :
 
  Websites mainly use images in jpeg, gif, or png format. If you choose the wrong image format then your image might not look as sharp as it should and can make the web page slower to load
 
