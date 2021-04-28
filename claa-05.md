@@ -1,5 +1,8 @@
 # **Images, Color, Text**
 
+
+![HTML](https://i.morioh.com/4c6a1ffeb6.png)
+
 # **Images :**
 
 **Images can improve the design and the appearance of a web page.**
@@ -92,31 +95,6 @@ Computer screens are made up of dots known as pixels. Images used on the web are
 
 
 
-
-
-## **JPEG vs PNG vs GIF — which image format to use and when?**:
-
-##  When should I use PNG or JPEG?
-
-**PNG format is a lossless compression file format, which makes it a common choice for use on the Web. PNG is a good choice for storing line drawings, text, and iconic graphics at a small file size. JPG format is a lossy compressed file format. This makes it useful for storing photographs at a smaller size than a BMP**
-
-
-![img](https://7esl.com/wp-content/uploads/2019/09/JPG-vs-JPEG.jpg)
-
-
-## When should I use a GIF format?
-
-
-**Use GIF when your graphic uses a relatively low number of colors, there are hard-edged shapes, large areas of solid color, or needs to make use of binary transparency. These exact same rules apply for 8-Bit PNG's. You can think of them almost exactly like GIF files**
-
-![ig](https://negliadesign.com/wordpress/assets/eps-jpg-etc-chart.jpg)
-
-
-### You can knoe more about this by visiting thiis link  : 
-
-
-[JPEG vs PNG vs GIF](https://blog.imagekit.io/jpeg-vs-png-vs-gif-which-image-format-to-use-and-when-c8913ae3e01d)
-
 # **Color :**
 
 **HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.**
@@ -178,4 +156,27 @@ when they have visited a link.
 
 ![text](imgs/gg.png)
 
+
+
+## **JPEG vs PNG vs GIF — which image format to use and when?**:
+
+##  When should I use PNG or JPEG?
+
+**PNG format is a lossless compression file format, which makes it a common choice for use on the Web. PNG is a good choice for storing line drawings, text, and iconic graphics at a small file size. JPG format is a lossy compressed file format. This makes it useful for storing photographs at a smaller size than a BMP**
+
+
+![img](https://7esl.com/wp-content/uploads/2019/09/JPG-vs-JPEG.jpg)
+
+
+## When should I use a GIF format?
+
+
+**Use GIF when your graphic uses a relatively low number of colors, there are hard-edged shapes, large areas of solid color, or needs to make use of binary transparency. These exact same rules apply for 8-Bit PNG's. You can think of them almost exactly like GIF files**
+
+![ig](https://negliadesign.com/wordpress/assets/eps-jpg-etc-chart.jpg)
+
+
+### You can know more about this by visiting thiis link  : 
+
+[JPEG vs PNG vs GIF](https://blog.imagekit.io/jpeg-vs-png-vs-gif-which-image-format-to-use-and-when-c8913ae3e01d)
 
