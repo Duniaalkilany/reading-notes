@@ -190,3 +190,11 @@ You access an object method with the following syntax:
 
 
 ![immg](https://images.unsplash.com/photo-1592609931041-40265b692757?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDM0fHxqYXZhc2NyaXB0fGVufDB8fHx8MTYxODU2MzIwNQ&ixlib=rb-1.2.1&q=80&w=2000)
+
+### Sources:
+* [the Duckett JS book](https://slack-files.com/files-pri-safe/TNGRRLUMA-F01VBUFKN3C/javascript_and_jquery_interactive_jon_du.pdf?c=1619379436-96c719feacff7a14)
+
+* [the Duckett HTML book](https://app.slack.com/client/TNGRRLUMA/C0204N1MTQQ/thread/C0204N1MTQQ-1619354471.091300)
+
+* [Domain Modeling](https://github.com/codefellows/domain_modeling#domain-modeling)
+
