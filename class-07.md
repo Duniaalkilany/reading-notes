@@ -1,5 +1,5 @@
 
-# ** Object-Oriented Programming, HTML Tables**
+# **Object-Oriented Programming, HTML Tables**
 
 ![IMGG](https://freecourseudemy.com/wp-content/uploads/2019/07/Complete-Web-Development-Course-HTML-Vue.Js-PHP-MySQL.jpg)
 
