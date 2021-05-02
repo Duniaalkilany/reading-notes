@@ -16,7 +16,7 @@ read03 |[HTML Lists, Control Flow with JS, and the CSS Box Model](https://duniaa
 read04|[HTML Links, JS Functions, and Intro to CSS Layout](https://ishadeed.com/assets/grid-flex/grid-vs-flexbox-1.png) 
 read05|[Images, Color, Text](https://duniaalkilany.github.io/reading-notes/class-05)
 read06|[Problem Domain, Objects, and the DOM]()
-read07|[]()
+read07|[Object-Oriented Programming, HTML Tables]()
 read08|[]()
 read09|[]()
 read10|[]()
