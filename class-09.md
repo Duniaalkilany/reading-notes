@@ -1,6 +1,6 @@
- # **Forms and JS Events :
+ # **Forms and JS Events :**
 
- # **HTML Forms :
+ # **HTML Forms :**
 
 ## An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 
