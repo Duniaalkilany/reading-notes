@@ -1,4 +1,4 @@
-# **“The Past, Present, and Future of Local Storage for Web Applications”**
+# **The Past, Present, and Future of Local Storage for Web Applications**
 
 ![img](https://lh3.googleusercontent.com/proxy/60mvE2xRP0tF8pra1S7_e5nC3fXuQ4upEHR8i09m4V1kLc2EIwq5ZOB7017Rfm_GgCG__BuOBvZFHkLKuRSCpFUFK5FWMRcEqGAKmsABXut8Zi0_M9m6F21TDRorlWn4V43QiGV0DCuoDoT0tB145w_AaW-h6Zb8lSVUO21QV-ZZOQtF8wPwgNaGH0CAtbPpHsfj7YGm5hVYfNrM25nYwAt3AFHVSm6F)
 
@@ -146,7 +146,7 @@ WEB SQL DATABASE SUPPORT
 
 
 ### Sources:
-* [“The Past, Present, and Future of Local Storage for Web Applications”](http://diveinto.html5doctor.com/storage.html)
+* [The Past, Present, and Future of Local Storage for Web ApplicationsS](http://diveinto.html5doctor.com/storage.html)
 
 
 
