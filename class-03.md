@@ -132,6 +132,6 @@ numbering of this list starts at zero (not one).***
 
 ### Sources:
 * [the Duckett HTML book](https://app.slack.com/client/TNGRRLUMA/C0204N1MTQQ/thread/C0204N1MTQQ-1619354471.091300)
-* [the Duckett HTML book](https://slack-files.com/files-pri-safe/TNGRRLUMA-F01VBUFKN3C/javascript_and_jquery_interactive_jon_du.pdf?c=1619379436-96c719feacff7a14)
+* [the Duckett JS book](https://slack-files.com/files-pri-safe/TNGRRLUMA-F01VBUFKN3C/javascript_and_jquery_interactive_jon_du.pdf?c=1619379436-96c719feacff7a14)
 
 
