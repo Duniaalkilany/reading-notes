@@ -41,7 +41,7 @@ The transform property comes in two different settings, two-dimensional and thre
 CSS transitions allows you to change property values smoothly, over a given duration.
 
 
-## How to Use CSS Transitions?
+## How to Use CSS Transitions
 
 To create a transition effect, you must specify two things:
 
@@ -91,5 +91,21 @@ using **HTML , CSS**
 using **HTML , CSS**
 
 ![img](imgs/205.png)
+
+
+# **QUIZE :** 
+
+## **Let's test your knowledge !**
+
+**Q1: How to Use CSS Transitions? ??**
+
+**Q2: what is CSS Transforms?**
+
+**Q3: CSS Transitions ?**
+
+
+### Sources:
+* [CSS Transforms](https://learn.shayhowe.com/advanced-html-css/css-transforms/)
+* [CSS Transitions & Animations](https://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 
 
