@@ -24,7 +24,7 @@ read11|[ Audio, Video, Images](https://duniaalkilany.github.io/reading-notes/cla
 read12|[Chart.js, Canvas](https://duniaalkilany.github.io/reading-notes/class-12)
 read13|[The Past, Present, and Future of Local Storage for Web Applications](https://duniaalkilany.github.io/reading-notes/class-13)
 read14-a|[ CSS Transforms, Transitions, and Animations](https://duniaalkilany.github.io/reading-notes/class-14a)
-read15|[]()
+read14-b|[What Google Learned From Its Quest to Build the Perfect Team*](https://duniaalkilany.github.io/reading-notes/class-14b)
 
 
 # Code 102 Reading Notes
