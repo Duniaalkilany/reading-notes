@@ -1,11 +1,34 @@
-# reading notes 
+# **reading notes**
 
 Hello all;
 I am Dunia Al Kilany 
 I studied electrical engineering at HU , but even while studying my major I had an interest in programming so I looked for this opportunity and here I am !
-I hope to pass all classes, develop myself in this field and get a good job opportunity.
 
-# Code 201 Reading Notes
+### **This repo is include all the reading notes of :**
+1. 102 code 
+2. 201 code 
+3. 301 code 
+4. 401 code 
+
+
+
+## **Code 102 - Intro to Software Development**
+
+## Table of contenet
+|NO.|Read|
+|---|------|
+read 01|[Growth and fixed mindset](https://duniaalkilany.github.io/reading-notes/read01)
+read 02 |[Version control with GIT](https://duniaalkilany.github.io/reading-notes/read02)
+read 03 |[HTML & CSS](https://duniaalkilany.github.io/reading-notes/read03)
+read 04a|[javascript](https://duniaalkilany.github.io/reading-notes/read04a) 
+read 04b|[How computer work](https://duniaalkilany.github.io/reading-notes/read04b)
+read 05| [comparison and logical operators](https://duniaalkilany.github.io/reading-notes/read05)
+read06|[Programming with JavaScript](https://duniaalkilany.github.io/reading-notes/read06)
+read07|[Design web pages with CSS](https://duniaalkilany.github.io/reading-notes/read07)
+read09|[The Coder's Computer](read09)cd 
+
+
+## **Code 201 - Foundations of Software Development**
 
 ## Table of contenet
 |NO.|Read|
@@ -27,19 +50,13 @@ read14-a|[ CSS Transforms, Transitions, and Animations](https://duniaalkilany.gi
 read14-b|[What Google Learned From Its Quest to Build the Perfect Team*](https://duniaalkilany.github.io/reading-notes/class-14b)
 
 
-# Code 102 Reading Notes
+## **Code 301 - Intermediate Software Development**
 
-## Table of contenet
-|NO.|Read|
-|---|------|
-read 01|[Growth and fixed mindset](https://duniaalkilany.github.io/reading-notes/read01)
-read 02 |[Version control with GIT](https://duniaalkilany.github.io/reading-notes/read02)
-read 03 |[HTML & CSS](https://duniaalkilany.github.io/reading-notes/read03)
-read 04a|[javascript](https://duniaalkilany.github.io/reading-notes/read04a) 
-read 04b|[How computer work](https://duniaalkilany.github.io/reading-notes/read04b)
-read 05| [comparison and logical operators](https://duniaalkilany.github.io/reading-notes/read05)
-read06|[Programming with JavaScript](https://duniaalkilany.github.io/reading-notes/read06)
-read07|[Design web pages with CSS](https://duniaalkilany.github.io/reading-notes/read07)
-read09|[The Coder's Computer](read09)cd 
+
+## **Code 401 - Advanced Software Development**
+
+
+
+
 
 
