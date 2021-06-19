@@ -52,6 +52,10 @@ read14-b|[What Google Learned From Its Quest to Build the Perfect Team*](https:/
 
 ## **Code 301 - Intermediate Software Development**
 
+## Table of contenet
+|NO.|Read|
+|---|------|
+class-1|[Introduction to React and Components](https://duniaalkilany.github.io/reading-notes/class-1)
 
 ## **Code 401 - Advanced Software Development**
 
