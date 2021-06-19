@@ -62,6 +62,8 @@ React has a different approach to data flow & manipulation than other frameworks
 ## **What is the flow of props?**
 Props can only be passed to components in one-way (parent to child)
 
+![DATAFLOW](https://miro.medium.com/max/700/1*3yqBUQ7qzBtlrXpUUhI1Dw.png)
+
 ## Conclusion
 * Props are like parameters to a function  
 * Props cannot be changed, they are immutable  
@@ -69,3 +71,14 @@ Props can only be passed to components in one-way (parent to child)
 * Props can only be passed in a uni-direction i.e (parent to child)  
 * Props can be used to pass dynamic data to a component 
 * A component re-renders when data in the props change  
+
+
+ ## Things I want to know more about
+I read some thing about state so i want to know what is the dufferent betwwen state and props .
+
+
+### Sources:
+* [Component Based Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
+* [What is Props and How to Use it in React](https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0#:~:text=%E2%80%9CProps%E2%80%9D%20is%20a%20special%20keyword,way%20from%20parent%20to%20child)
+
+
