@@ -74,6 +74,7 @@ Props can only be passed to components in one-way (parent to child)
 
 
  ## Things I want to know more about
+ 
 I read some thing about state so i want to know what is the dufferent betwwen state and props .
 
 

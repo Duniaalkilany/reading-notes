@@ -56,6 +56,7 @@ read14-b|[What Google Learned From Its Quest to Build the Perfect Team*](https:/
 |NO.|Read|
 |---|------|
 class-1|[Introduction to React and Components](https://duniaalkilany.github.io/reading-notes/class-1)
+class-2|[React State Vs Props](https://duniaalkilany.github.io/reading-notes/class-2)
 
 ## **Code 401 - Advanced Software Development**
 
