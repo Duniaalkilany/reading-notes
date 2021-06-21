@@ -65,7 +65,7 @@
 
 ## Things I want to know more about
  
-I want to knpw more about the differences betwwen state and props also i want to know and learn about  store and redux.
+I want to knpw more about the differences between state and props also i want to know and learn about  store and redux.
 
 
 ### Sources:
