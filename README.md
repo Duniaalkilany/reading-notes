@@ -59,7 +59,9 @@ class-1|[Introduction to React and Components](https://duniaalkilany.github.io/r
 class-2|[React State Vs Props](https://duniaalkilany.github.io/reading-notes/class-2)
 class-3|[Passing Functions as Props](https://duniaalkilany.github.io/reading-notes/class-3)
 class-4|[React and Forms](https://duniaalkilany.github.io/reading-notes/class-4)
-class-4|[Putting it all together](https://duniaalkilany.github.io/reading-notes/class-5)
+class-5|[Putting it all together](https://duniaalkilany.github.io/reading-notes/class-5)
+class-6|[Node.js](https://duniaalkilany.github.io/reading-notes/class-6S)
+
 ## **Code 401 - Advanced Software Development**
 
 
