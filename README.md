@@ -61,6 +61,7 @@ class-3|[Passing Functions as Props](https://duniaalkilany.github.io/reading-not
 class-4|[React and Forms](https://duniaalkilany.github.io/reading-notes/class-4)
 class-5|[Putting it all together](https://duniaalkilany.github.io/reading-notes/class-5)
 class-6|[Node.js](https://duniaalkilany.github.io/reading-notes/class-6)
+class-7|[REST](https://duniaalkilany.github.io/reading-notes/class-7)
 
 ## **Code 401 - Advanced Software Development**
 
