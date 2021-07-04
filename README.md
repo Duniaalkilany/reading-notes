@@ -66,6 +66,7 @@ class-8|[APIs](https://duniaalkilany.github.io/reading-notes/class-8)
 class-9|[FUNCTIONAL PROGRAMMING](https://duniaalkilany.github.io/reading-notes/class-9)
 class10-301|[In memory storage](https://duniaalkilany.github.io/reading-notes/class10-301)
 class11-301|[Authentication](https://duniaalkilany.github.io/reading-notes/class11-301)
+class12-301|[nosql vs sql](https://duniaalkilany.github.io/reading-notes/class12-301)
 
 ## **Code 401 - Advanced Software Development**
 
