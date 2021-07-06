@@ -68,7 +68,7 @@ class10-301|[In memory storage](https://duniaalkilany.github.io/reading-notes/cl
 class11-301|[Authentication](https://duniaalkilany.github.io/reading-notes/class11-301)
 class12-301|[nosql vs sql](https://duniaalkilany.github.io/reading-notes/class12-301)
 class13-301|[CRUD](https://duniaalkilany.github.io/reading-notes/class13-301)
-
+class14-301|[Diversity & Inclusion in the Tech Industry](https://duniaalkilany.github.io/reading-notes/class14-301)
 
 ## **Code 401 - Advanced Software Development**
 
