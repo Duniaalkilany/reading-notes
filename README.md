@@ -2,13 +2,13 @@
 
 Hello all;
 I am Dunia Al Kilany 
-I studied electrical engineering at HU , but even while studying my major I had an interest in programming so I looked for this opportunity and here I am !
+I studied electrical engineering , but even while studying my major I had an interest in programming so I looked for improving myself and Become a professional full stack developer !
 
 ### **This repo is include all the reading notes of :**
 1. 102 code 
 2. 201 code 
 3. 301 code 
-4. 401 code 
+4. 401 code
 
 
 
