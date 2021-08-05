@@ -72,7 +72,7 @@ class14-301|[Diversity & Inclusion in the Tech Industry](https://duniaalkilany.g
 
 ## **Code 401 - Advanced Software Development**
 
-
+class00-401|[Pre-Read](https://duniaalkilany.github.io/reading-notes/class00-401)
 
 
 
