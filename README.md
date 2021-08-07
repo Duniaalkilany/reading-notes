@@ -76,6 +76,6 @@ class14-301|[Diversity & Inclusion in the Tech Industry](https://duniaalkilany.g
 |NO.|Read|
 |---|------|
 class00-401|[Pre-Read](https://duniaalkilany.github.io/reading-notes/class00-401)
-
+class01-401|[Node Ecosystem, TDD, CI/CD](https://duniaalkilany.github.io/reading-notes/class01-401)
 
 
