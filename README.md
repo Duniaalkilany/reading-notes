@@ -78,4 +78,4 @@ class14-301|[Diversity & Inclusion in the Tech Industry](https://duniaalkilany.g
 class00-401|[Pre-Read](https://duniaalkilany.github.io/reading-notes/class00-401)
 class01-401|[Node Ecosystem, TDD, CI/CD](https://duniaalkilany.github.io/reading-notes/class01-401)
 class02-401|[Express](https://duniaalkilany.github.io/reading-notes/class02-401)
-
+class03-401|[Express REST API](https://duniaalkilany.github.io/reading-notes/class03-401)
