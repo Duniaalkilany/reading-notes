@@ -81,5 +81,6 @@ class02-401|[Express](https://duniaalkilany.github.io/reading-notes/class02-401)
 class03-401|[Express REST API](https://duniaalkilany.github.io/reading-notes/class03-401)
 class04-401|[Data Modeling](https://duniaalkilany.github.io/reading-notes/class04-401)
 class05-401|[Linked Lists](https://duniaalkilany.github.io/reading-notes/class05-401)
+class06-401|[Authentication](https://duniaalkilany.github.io/reading-notes/class06-401)
  
- Linked Lists
+
