@@ -86,6 +86,7 @@ class07-401|[Bearer Authorization](https://duniaalkilany.github.io/reading-notes
 class08-401|[Access Control ACL](https://duniaalkilany.github.io/reading-notes/class08-401)
 class09-401|[Authorization/Authentication](https://duniaalkilany.github.io/reading-notes/class09-401)
 class10-401|[Stacks and Queues](https://duniaalkilany.github.io/reading-notes/class10-401)
+class11-401|[Event Driven Applications](https://duniaalkilany.github.io/reading-notes/class11-401)
 
 
  
