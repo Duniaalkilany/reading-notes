@@ -88,6 +88,6 @@ class09-401|[Authorization/Authentication](https://duniaalkilany.github.io/readi
 class10-401|[Stacks and Queues](https://duniaalkilany.github.io/reading-notes/class10-401)
 class11-401|[Event Driven Applications](https://duniaalkilany.github.io/reading-notes/class11-401)
 class12-401|[Socket.io](https://duniaalkilany.github.io/reading-notes/class12-401)
-
+class12-401|[Message Queues](https://duniaalkilany.github.io/reading-notes/class13-401)
  
-
+ 
