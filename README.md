@@ -91,4 +91,4 @@ class12-401|[Socket.io](https://duniaalkilany.github.io/reading-notes/class12-40
 class13-401|[Message Queues](https://duniaalkilany.github.io/reading-notes/class13-401)
 class14-401|[Event Driven Architecture](https://duniaalkilany.github.io/reading-notes/class14-401)
 class15-401|[Trees](https://duniaalkilany.github.io/reading-notes/class15-401)
- 
+class16-401|[AWS: Cloud Services](https://duniaalkilany.github.io/reading-notes/class16-401)
