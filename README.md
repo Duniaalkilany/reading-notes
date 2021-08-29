@@ -92,3 +92,7 @@ class13-401|[Message Queues](https://duniaalkilany.github.io/reading-notes/class
 class14-401|[Event Driven Architecture](https://duniaalkilany.github.io/reading-notes/class14-401)
 class15-401|[Trees](https://duniaalkilany.github.io/reading-notes/class15-401)
 class16-401|[AWS: Cloud Services](https://duniaalkilany.github.io/reading-notes/class16-401)
+class17-401|[AWS: S3 and Lambda](https://duniaalkilany.github.io/reading-notes/class17-401)
+
+
+
