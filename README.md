@@ -93,6 +93,8 @@ class14-401|[Event Driven Architecture](https://duniaalkilany.github.io/reading-
 class15-401|[Trees](https://duniaalkilany.github.io/reading-notes/class15-401)
 class16-401|[AWS: Cloud Services](https://duniaalkilany.github.io/reading-notes/class16-401)
 class17-401|[AWS: S3 and Lambda](https://duniaalkilany.github.io/reading-notes/class17-401)
+class18-401|[AWS: API, Dynamo, and Lambda](https://duniaalkilany.github.io/reading-notes/class18-401)
+
 
 
 
