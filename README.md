@@ -95,8 +95,7 @@ class16-401|[AWS: Cloud Services](https://duniaalkilany.github.io/reading-notes/
 class17-401|[AWS: S3 and Lambda](https://duniaalkilany.github.io/reading-notes/class17-401)
 class18-401|[AWS: API, Dynamo, and Lambda](https://duniaalkilany.github.io/reading-notes/class18-401)
 class19-401|[AWS: Events](https://duniaalkilany.github.io/reading-notes/class19-401)
-class26-401|[Component Based UI](https://duniaalkilany.github.io/reading-notes/class26-401)
+class27-401|[useState() Hook](https://duniaalkilany.github.io/reading-notes/class27-401)
 
 
 
- 
