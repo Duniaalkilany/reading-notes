@@ -97,5 +97,5 @@ class18-401|[AWS: API, Dynamo, and Lambda](https://duniaalkilany.github.io/readi
 class19-401|[AWS: Events](https://duniaalkilany.github.io/reading-notes/class19-401)
 class27-401|[useState() Hook](https://duniaalkilany.github.io/reading-notes/class27-401)
 class28-401|[useEffect() Hook](https://duniaalkilany.github.io/reading-notes/class28-401)
-
+class29-401|[Advanced State with Reducers](https://duniaalkilany.github.io/reading-notes/class29-401)
 
