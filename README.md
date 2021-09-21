@@ -100,7 +100,7 @@ class28-401|[useEffect() Hook](https://duniaalkilany.github.io/reading-notes/cla
 class29-401|[Advanced State with Reducers](https://duniaalkilany.github.io/reading-notes/class29-401)
 class30-401|[Hash Tables](https://duniaalkilany.github.io/reading-notes/class30-401)
 class31-401|[Context API](https://duniaalkilany.github.io/reading-notes/class31-401)
-class31-401|[Context API - Behaviors](https://duniaalkilany.github.io/reading-notes/class32-401)
-
+class32-401|[Context API - Behaviors](https://duniaalkilany.github.io/reading-notes/class32-401)
+class33-401|[< Login /> and < Auth />](https://duniaalkilany.github.io/reading-notes/class33-401)
 
 
