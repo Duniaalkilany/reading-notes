@@ -105,4 +105,5 @@ class33-401|[< Login /> and < Auth />](https://duniaalkilany.github.io/reading-n
 class34-401|[API Integration](https://duniaalkilany.github.io/reading-notes/class34-401)
 class35-401|[Graphs](https://duniaalkilany.github.io/reading-notes/class35-401)
 class36-401|[Application State with Redux](https://duniaalkilany.github.io/reading-notes/class36-401)
+class37-401|[Redux - Combined Reducers](https://duniaalkilany.github.io/reading-notes/class37-401)
  
