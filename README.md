@@ -107,5 +107,8 @@ class35-401|[Graphs](https://duniaalkilany.github.io/reading-notes/class35-401)
 class36-401|[Application State with Redux](https://duniaalkilany.github.io/reading-notes/class36-401)
 class37-401|[Redux - Combined Reducers](https://duniaalkilany.github.io/reading-notes/class37-401)
 class38-401|[Redux - Asynchronous Actions](https://duniaalkilany.github.io/reading-notes/class38-401)
+class39-401|[Redux - Additional Topics](https://duniaalkilany.github.io/reading-notes/class39-401)
+
+
 
  
