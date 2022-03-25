@@ -32,8 +32,9 @@ curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
 
 
 >  * **Body:** <br />
-```
-  [
+
+```ruby
+ [
   {
    "ISO_Code": "675",
     "CountryGroup": "Non_Local",
@@ -3764,8 +3765,11 @@ curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
     "createdDate": "2021-10-21T06:43:10.491Z"
   }
 ]  
-  
 ```
+
+ 
+  
+
   
 **Get List Of Cities**
 ----
