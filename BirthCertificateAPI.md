@@ -26,7 +26,10 @@ curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
    
 * **Success Response:**
   
-> 
+>  * **Code:** 200 <br />
+
+
+>  * **Body:** <br />
 ```
   [
   {
@@ -3762,4 +3765,162 @@ curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
   
 
   ```
-      
+  
+**Get List Of Cities**
+----
+Returns List of Cities in JSON format.
+
+* **URL**
+
+ `http://10.0.52.243:8080/birthcertificate/countries` 
+
+* **Method:**
+
+```ruby
+POST
+```
+  
+* **Data Params**
+
+ > **BODY raw**
+ 
+  
+ ```ruby
+{
+  "ISO_Code": "001"
+}
+```
+ * **Example Request**
+  > Curl
+
+```ruby
+curl -X POST "http://10.0.52.243:8080/birthcertificate/cities" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"ISO_Code\": \"001\"}"
+```
+* **Example Response**
+* **Success Response:**
+ 
+>  * **Code:** 200  <br />
+>  * **Description:** 200  <br />
+	
+>  * **Response body :**
+
+```
+[
+  {
+    "Code": "13",
+    "DescriptionArabic": "الزرقاء",
+    "DescriptionEnglish": "Zarqa",
+    "Description": "الزرقاء",
+    "ActiveInd": "Active",
+    "changedDate": "2022-02-17T13:14:34.485Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "21",
+    "DescriptionArabic": "اربد",
+    "DescriptionEnglish": "Irbid",
+    "Description": "اربد",
+    "ActiveInd": "Active",
+    "changedDate": "2021-03-23T09:14:38.770Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "11",
+    "DescriptionArabic": "العاصمة",
+    "DescriptionEnglish": "Amman",
+    "Description": "العاصمة",
+    "ActiveInd": "Active",
+    "changedDate": "2022-02-17T13:14:36.329Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "22",
+    "DescriptionArabic": "المفرق",
+    "DescriptionEnglish": "Mafraq",
+    "Description": "المفرق",
+    "ActiveInd": "Active",
+    "changedDate": "2021-03-16T11:54:15.594Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "23",
+    "DescriptionArabic": "جرش",
+    "DescriptionEnglish": "Jerash",
+    "Description": "جرش",
+    "ActiveInd": "Active",
+    "changedDate": "2018-11-18T13:49:35.840Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "14",
+    "DescriptionArabic": "مأدبا",
+    "DescriptionEnglish": "Madaba",
+    "Description": "مأدبا",
+    "ActiveInd": "Active",
+    "changedDate": "2018-11-25T12:32:58.136Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "12",
+    "DescriptionArabic": "البلقاء",
+    "DescriptionEnglish": "Balqa",
+    "Description": "البلقاء",
+    "ActiveInd": "Active",
+    "changedDate": "2020-07-29T09:44:56.315Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "32",
+    "DescriptionArabic": "الطفيله",
+    "DescriptionEnglish": "Tafilah",
+    "Description": "الطفيله",
+    "ActiveInd": "Active",
+    "changedDate": "2018-11-25T12:18:56.791Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "33",
+    "DescriptionArabic": "معان",
+    "DescriptionEnglish": "Ma'an",
+    "Description": "معان",
+    "ActiveInd": "Active",
+    "changedDate": "2018-11-25T12:33:01.874Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "24",
+    "DescriptionArabic": "عجلون",
+    "DescriptionEnglish": "Ajloun",
+    "Description": "عجلون",
+    "ActiveInd": "Active",
+    "changedDate": "2018-12-20T15:07:35.075Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "31",
+    "DescriptionArabic": "الكرك",
+    "DescriptionEnglish": "Karak",
+    "Description": "الكرك",
+    "ActiveInd": "Active",
+    "changedDate": "2018-11-25T10:54:59.389Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  },
+  {
+    "Code": "34",
+    "DescriptionArabic": "العقبة",
+    "DescriptionEnglish": "Aqaba",
+    "Description": "العقبة",
+    "ActiveInd": "Active",
+    "changedDate": "2018-09-19T07:44:35.961Z",
+    "createdDate": "2018-09-03T12:54:58.303Z"
+  }
+]
+```
+>  * **Response headers :**
+
+```
+Date: Thu, 24 Mar 2022 11:14:27 GMT
+Cache-Control: no-store
+Content-Type: application/json;charset=utf-8
+Content-Length: 2503
+```
