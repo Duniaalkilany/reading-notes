@@ -3802,11 +3802,11 @@ curl -X POST "http://10.0.52.243:8080/birthcertificate/cities" -H "accept: appli
 >  * **Code:** 200  <br />
 >  * **Description:** 200  <br />
 	
->  * **Response body :**
+ >   **Response body :**
 
-```
-[
-  {
+ ```
+ [
+   {
     "Code": "13",
     "DescriptionArabic": "الزرقاء",
     "DescriptionEnglish": "Zarqa",
@@ -3915,8 +3915,8 @@ curl -X POST "http://10.0.52.243:8080/birthcertificate/cities" -H "accept: appli
     "createdDate": "2018-09-03T12:54:58.303Z"
   }
 ]
-```
->  * **Response headers :**
+ ```
+ >  **Response headers :**
 
 ```
 Date: Thu, 24 Mar 2022 11:14:27 GMT
@@ -3924,3 +3924,5 @@ Cache-Control: no-store
 Content-Type: application/json;charset=utf-8
 Content-Length: 2503
 ```
+
+
