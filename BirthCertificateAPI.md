@@ -3784,34 +3784,36 @@ POST
   
 * **Data Params**
 
-  > **BODY raw**
+> **BODY raw**
  
   
-  ```ruby
-  {
-    "ISO_Code": "001"
-  }
-  ```  
+```ruby
+{
+   "ISO_Code": "001"
+}
+ ```  
+ 
 * **Example Request**
 
-  > **Curl**
+> **Curl**
 
-   ```ruby
-    curl -X POST "http://10.0.52.243:8080/birthcertificate/cities" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"ISO_Code\": \"001\"}"
-   ```
+```ruby
+ curl -X POST "http://10.0.52.243:8080/birthcertificate/cities" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"ISO_Code\": \"001\"}"
+```
    
 * **Example Response**
-   **Success Response:**
+
+**Success Response:**
  
-    > **Code:** 200  
-    > **Description:** successful operation <br />
+> **Code:** 200  
+> **Description:** successful operation <br />
       
 	 
-   >   **Response body :**
+> **Response body :**
 
- ```
- [
-   {
+```
+[
+  {
     "Code": "13",
     "DescriptionArabic": "الزرقاء",
     "DescriptionEnglish": "Zarqa",
@@ -3920,8 +3922,9 @@ POST
     "createdDate": "2018-09-03T12:54:58.303Z"
   }
 ]
- ```
- >  **Response headers :**
+```
+
+>  **Response headers :**
 
 ```
 Date: Thu, 24 Mar 2022 11:14:27 GMT
@@ -3929,5 +3932,912 @@ Cache-Control: no-store
 Content-Type: application/json;charset=utf-8
 Content-Length: 2503
 ```
+
+
+**Get List Of Departements**
+----
+Returns List of Departements in JSON format.
+
+* **URL**
+
+```ruby
+http://10.0.52.243:8080/birthcertificate/departments
+```
+
+* **Method:**
+
+```ruby
+POST
+```
+  
+* **Data Params**
+
+> **BODY raw**
+ 
+  
+```ruby
+{
+"IsoCode":"001",
+"ServiceType":"Birth_Certificate",
+"DepartmentType":"02"
+}
+ ```  
+ 
+* **Example Request**
+
+> **Curl**
+
+```ruby
+curl -X POST "http://10.0.52.243:8080/birthcertificate/departments" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"IsoCode\":\"001\",\"ServiceType\":\"Birth_Certificate\",\"DepartmentType\":\"02\"}"
+```
+   
+* **Example Response**
+
+**Success Response:**
+ 
+> **Code:** 200  
+> **Description:** successful operation <br />
+      
+	 
+> **Response body :**
+
+```
+[
+  {
+    "Code": "201",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "السلط   تلفون 05554921",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "السلط",
+    "EnglishIssuanceAuthority": "AL SALT",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "201",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "ViewAndPrinting",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "السلط",
+    "DescriptionEnglish": "AL SALT",
+    "Description": "السلط",
+    "ActiveInd": "Active",
+    "changedDate": "2021-12-27T16:09:42.077Z",
+    "createdDate": "2018-09-05T19:26:56.329Z"
+  },
+  {
+    "Code": "701",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "الطفيله   تلفون 03341116",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "الطفيلة",
+    "EnglishIssuanceAuthority": "AL TAFILA",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "701",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "ViewAndPrinting",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "الطفيلة",
+    "DescriptionEnglish": "AL TAFILA",
+    "Description": "الطفيلة",
+    "ActiveInd": "Active",
+    "changedDate": "2021-12-27T16:09:45.428Z",
+    "createdDate": "2018-09-05T19:26:56.329Z"
+  },
+  {
+    "Code": "601",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": true,
+    "PrintingInd": true,
+    "AddressDetails": "العقبه    تلفون 03313864",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "العقبة",
+    "EnglishIssuanceAuthority": "AL AQABA",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "601",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": true,
+    "PrintingButton": "Printing",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "العقبة",
+    "DescriptionEnglish": "AL AQABA",
+    "Description": "العقبة",
+    "ActiveInd": "Active",
+    "changedDate": "2020-09-06T14:29:59.316Z",
+    "createdDate": "2018-09-05T19:26:56.334Z"
+  },
+  {
+    "Code": "001",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "جبل عمان / الدوار الاول    تلفون  636370",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "عمان الغربيه",
+    "EnglishIssuanceAuthority": "AMMAN",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "001",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "Printing",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "عمان الغربيه",
+    "DescriptionEnglish": "AMMAN",
+    "Description": "عمان الغربيه",
+    "ActiveInd": "Active",
+    "changedDate": "2022-02-17T13:14:35.204Z",
+    "createdDate": "2018-09-05T19:26:56.334Z"
+  },
+  {
+    "Code": "003",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "عمان / المحطه   تلفون    4882968",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "ماركا",
+    "EnglishIssuanceAuthority": "MARKA",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "003",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "Printing",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "ماركا",
+    "DescriptionEnglish": "MARKA",
+    "Description": "ماركا",
+    "ActiveInd": "Active",
+    "changedDate": "2022-02-17T13:14:33.626Z",
+    "createdDate": "2018-09-05T19:26:56.334Z"
+  },
+  {
+    "Code": "005",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "صويلح   تلفون  5357428",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "صويلح",
+    "EnglishIssuanceAuthority": "SWEILEH",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "005",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": true,
+    "PrintingButton": "Printing",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "صويلح",
+    "DescriptionEnglish": "SWEILEH",
+    "Description": "صويلح",
+    "ActiveInd": "Active",
+    "changedDate": "2022-03-24T06:19:58.063Z",
+    "createdDate": "2018-09-05T19:26:56.334Z"
+  },
+  {
+    "Code": "101",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "الزرقاء   تلفون 09983821",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "الزرقاء",
+    "EnglishIssuanceAuthority": "ZARQA",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "101",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "ViewAndPrinting",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "الزرقاء",
+    "DescriptionEnglish": "ZARQA",
+    "Description": "الزرقاء",
+    "ActiveInd": "Active",
+    "changedDate": "2022-03-08T11:09:18.989Z",
+    "createdDate": "2018-09-05T19:26:56.334Z"
+  },
+  {
+    "Code": "009",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "سحاب    تلفون 721175",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "سحاب",
+    "EnglishIssuanceAuthority": "SAHAB",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "009",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "ViewAndPrinting",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "سحاب",
+    "DescriptionEnglish": "SAHAB",
+    "Description": "سحاب",
+    "ActiveInd": "Active",
+    "changedDate": "2021-09-02T13:30:06.110Z",
+    "createdDate": "2018-09-05T19:26:56.334Z"
+  },
+  {
+    "Code": "006",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "IP_Address_From": "10.69.10.70",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "جبل الحسين/عمان   تلفون 4610278",
+    "AdditionalServiceFees": 0,
+    "IP_Address_To": "10.69.10.76",
+    "ArabicIssuanceAuthority": "جبل الحسين",
+    "EnglishIssuanceAuthority": "JABAL ALHUSSEIN",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "004",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "ViewAndPrinting",
+    "PassportFileInd": false,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "جبل الحسين",
+    "DescriptionEnglish": "JABAL ALHUSSEIN",
+    "Description": "جبل الحسين",
+    "ActiveInd": "Active",
+    "changedDate": "2022-03-21T09:23:20.741Z",
+    "createdDate": "2018-09-05T19:26:56.335Z"
+  },
+  {
+    "Code": "004",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": true,
+    "PrintingInd": true,
+    "AddressDetails": "وادي السير   تلفون  814407",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "وادي السير ",
+    "EnglishIssuanceAuthority": "wadi alsir",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "005",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "Printing",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "وادي السير",
+    "DescriptionEnglish": "WADI ALSIR",
+    "Description": "وادي السير",
+    "ActiveInd": "Active",
+    "changedDate": "2022-02-17T13:14:36.313Z",
+    "createdDate": "2018-09-05T19:26:56.335Z"
+  },
+  {
+    "Code": "002",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "عمان / دوار الشرق الاوسط   تلفون 4754932",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "الاشرفيه",
+    "EnglishIssuanceAuthority": "AL ASHRAFEA",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "002",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "Printing",
+    "PassportFileInd": false,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "الاشرفيه",
+    "DescriptionEnglish": "AL ASHRAFEA",
+    "Description": "الاشرفيه",
+    "ActiveInd": "Active",
+    "changedDate": "2022-01-11T10:50:38.384Z",
+    "createdDate": "2018-09-05T19:26:56.335Z"
+  },
+  {
+    "Code": "008",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "الجيزه   تلفون 08560138",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "الجيزه",
+    "EnglishIssuanceAuthority": "AL JEZA",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "008",
+    "OnlineInd": true,
+    "CivilOfficeInd": true,
+    "InternalOffice": true,
+    "PrintingButton": "Printing",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "الجيزه",
+    "DescriptionEnglish": "AL JEZA",
+    "Description": "الجيزه",
+    "ActiveInd": "Active",
+    "changedDate": "2021-12-27T16:23:41.158Z",
+    "createdDate": "2018-09-05T19:26:56.336Z"
+  },
+  {
+    "Code": "904",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": false,
+    "AddressDetails": "العقبه    تلفون 03313864",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "العقبه",
+    "EnglishIssuanceAuthority": "AQABA",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "904",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "Printing",
+    "PassportFileInd": false,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "غزة / العقبة",
+    "DescriptionEnglish": " AQABA",
+    "Description": "غزة / العقبة",
+    "ActiveInd": "Active",
+    "changedDate": "2019-02-17T14:45:38.004Z",
+    "createdDate": "2018-09-05T19:26:56.336Z"
+  },
+  {
+    "Code": "079",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "خلدا ام السماق تلاع العلي",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "تلاع العلي",
+    "EnglishIssuanceAuthority": "TILA ALALI",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "079",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "Printing",
+    "PassportFileInd": false,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "تلاع العلي",
+    "DescriptionEnglish": "TILA ALALI",
+    "Description": "تلاع العلي",
+    "ActiveInd": "Active",
+    "changedDate": "2018-12-20T08:14:55.581Z",
+    "createdDate": "2018-09-05T19:26:56.337Z"
+  },
+  {
+    "Code": "018",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": true,
+    "PrintingInd": true,
+    "AddressDetails": "طبربور",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "عمان المركز",
+    "EnglishIssuanceAuthority": "AMMAN CENTER",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "EmbassyCode": "018",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "ViewAndPrinting",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "عمان المركز",
+    "DescriptionEnglish": "AMMAN CENTER",
+    "Description": "عمان المركز",
+    "ActiveInd": "Active",
+    "changedDate": "2022-02-17T13:14:35.735Z",
+    "createdDate": "2018-09-05T19:26:56.343Z"
+  },
+  {
+    "Code": "091",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": false,
+    "AddressDetails": "قصر العدل",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "عمان",
+    "EnglishIssuanceAuthority": "amman",
+    "PrintingExport": "0",
+    "DepartmentTypeExport": "1",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": false,
+    "PrintingButton": "ViewAndPrinting",
+    "PassportFileInd": false,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "محطة قصر العدل",
+    "DescriptionEnglish": "amman",
+    "Description": "محطة قصر العدل",
+    "ActiveInd": "Active",
+    "changedDate": "2020-08-09T07:45:05.107Z",
+    "createdDate": "2020-08-09T07:42:06.054Z"
+  },
+  {
+    "Code": "069",
+    "HasEmployee": false,
+    "HasManager": false,
+    "DepartmentType": "CSPD_Office",
+    "MainOfficeInd": false,
+    "PrintingInd": true,
+    "AddressDetails": "حي نزال مقابل حلويات العنبتاوي",
+    "AdditionalServiceFees": 0,
+    "ArabicIssuanceAuthority": "عمان",
+    "EnglishIssuanceAuthority": "amman",
+    "PrintingExport": "1",
+    "DepartmentTypeExport": "1",
+    "OnlineInd": false,
+    "CivilOfficeInd": true,
+    "InternalOffice": true,
+    "PrintingButton": "ViewAndPrinting",
+    "PassportFileInd": true,
+    "CheckIPAddress": false,
+    "embassyInd": false,
+    "DescriptionArabic": "حي نزال ",
+    "DescriptionEnglish": "hai nzaal ",
+    "Description": "حي نزال ",
+    "ActiveInd": "Active",
+    "changedDate": "2021-06-20T08:58:59.084Z",
+    "createdDate": "2021-06-20T08:55:46.585Z"
+  }
+]
+```
+
+>  **Response headers :**
+
+```
+ cache-control: no-store 
+ content-length: 1375 
+ content-type: application/json;charset=utf-8 
+ date: Fri, 25 Mar 2022 20:06:51 GMT 
+```
+
+**Get List Of Marital Status**
+----
+Returns List of Marital Status in JSON format.
+
+* **URL**
+
+```ruby
+http://10.0.52.243:8080/birthcertificate/martialstatus
+```
+
+* **Method:**
+
+```ruby
+POST
+```
+  
+* **Data Params**
+
+> None
+ 
+* **Example Request**
+
+> **Curl**
+
+```ruby
+curl -X POST "http://10.0.52.243:8080/birthcertificate/martialstatus" -H "accept: application/json"
+```
+   
+* **Example Response**
+
+**Success Response:**
+ 
+> **Code:** 200  
+> **Description:** successful operation <br />
+      
+	 
+> **Response body :**
+
+```
+[
+  {
+    "Code": "02",
+    "DescriptionArabic": "متزوج/ متزوجة",
+    "DescriptionEnglish": "Married",
+    "Description": "متزوج/ متزوجة",
+    "ActiveInd": "Active",
+    "changedDate": "2022-03-20T13:28:13.441Z",
+    "createdDate": "2018-09-03T13:04:56.283Z"
+  },
+  {
+    "Code": "03",
+    "DescriptionArabic": "مطلق / مطلقة",
+    "DescriptionEnglish": "DIVORCE",
+    "Description": "مطلق / مطلقة",
+    "ActiveInd": "Active",
+    "changedDate": "2022-03-08T11:01:00.017Z",
+    "createdDate": "2018-09-03T13:05:12.600Z"
+  },
+  {
+    "Code": "04",
+    "DescriptionArabic": "ارمل / ارملة",
+    "DescriptionEnglish": "WIDOWED",
+    "Description": "ارمل / ارملة",
+    "ActiveInd": "Active",
+    "changedDate": "2021-03-16T11:29:36.394Z",
+    "createdDate": "2018-09-03T13:05:22.088Z"
+  },
+  {
+    "Code": "05",
+    "DescriptionArabic": "متزوجه من اجنبي",
+    "DescriptionEnglish": "MARRIAGE FROM FOREIGN",
+    "Description": "متزوجه من اجنبي",
+    "ActiveInd": "Active",
+    "changedDate": "2018-12-24T08:36:35.994Z",
+    "createdDate": "2018-09-03T13:05:31.816Z"
+  },
+  {
+    "Code": "06",
+    "DescriptionArabic": "ارملة الاجنبي",
+    "DescriptionEnglish": "WIDOWED FOREIGN",
+    "Description": "ارملة الاجنبي",
+    "ActiveInd": "Active",
+    "changedDate": "2018-12-17T09:32:39.880Z",
+    "createdDate": "2018-09-03T13:05:44.967Z"
+  },
+  {
+    "Code": "07",
+    "DescriptionArabic": "زوجة المفقود",
+    "DescriptionEnglish": "MISS WIFE",
+    "Description": "زوجة المفقود",
+    "ActiveInd": "Active",
+    "changedDate": "2022-02-28T07:40:09.100Z",
+    "createdDate": "2018-09-03T13:05:58.616Z"
+  },
+  {
+    "Code": "10",
+    "DescriptionArabic": "زوجة الغائب",
+    "DescriptionEnglish": "The Absent Wife",
+    "Description": "زوجة الغائب",
+    "ActiveInd": "Active",
+    "changedDate": "2018-09-03T13:06:48.009Z",
+    "createdDate": "2018-09-03T13:06:33.270Z"
+  },
+  {
+    "Code": "11",
+    "DescriptionArabic": "زوجة أجنبي ابناء اردني",
+    "DescriptionEnglish": "FOREIGN WIFE JOR SON",
+    "Description": "زوجة أجنبي ابناء اردني",
+    "ActiveInd": "Active",
+    "changedDate": "2020-04-14T09:41:43.519Z",
+    "createdDate": "2018-09-03T13:07:00.270Z"
+  },
+  {
+    "Code": "01",
+    "DescriptionArabic": "أعزب/ عزباء",
+    "DescriptionEnglish": "Single",
+    "Description": "أعزب/ عزباء",
+    "ActiveInd": "Active",
+    "changedDate": "2022-03-21T09:23:20.714Z",
+    "createdDate": "2020-07-29T08:02:56.202Z"
+  },
+  {
+    "Code": "Saepe repudiandae necessitatibus accusantium molestiae aspernatur a quidem aspernatur aperiam",
+    "DescriptionArabic": "الوصف بالعربي",
+    "DescriptionEnglish": "Et corporis magna nemo eos asperiores voluptate ipsam magnam eum veniam sequi",
+    "Description": "الوصف بالعربي",
+    "ActiveInd": "Active",
+    "changedDate": "2021-09-14T11:05:33.078Z",
+    "createdDate": "2021-09-14T11:05:22.516Z"
+  }
+]
+```
+
+>  **Response headers :**
+
+```
+Date: Thu, 24 Mar 2022 11:12:20 GMT
+Cache-Control: no-store
+Content-Type: application/json;charset=utf-8
+Content-Length: 2584
+```
+
+**Get Applicant Data 
+----
+Returns the applicant's data and the list of beneficiaries associated with the applicant in JSON format.
+
+* **URL**
+
+```ruby
+http://10.0.52.243:8080/birthcertificate/applicantes
+```
+
+* **Method:**
+
+```ruby
+POST
+```
+  
+* **Data Params**
+
+> **BODY raw**
+ 
+  
+```ruby
+{
+    "NAT_NO": "string"
+}
+ ```  
+ 
+* **Example Request**
+
+> **Curl**
+
+```ruby
+curl -X POST "http://10.0.52.243:8080/birthcertificate/applicantes" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"NAT_NO\": \"9932028787"\"}"
+```
+   
+* **Example Response**
+
+**Success Response:**
+ 
+> **Code:** 200  
+> **Description:** successful operation <br />
+      
+	 
+> **Response body :**
+
+```
+
+```
+
+>  **Response headers :**
+
+```
+Date: Thu, 24 Mar 2022 11:23:42 GMT
+Cache-Control: no-store
+Content-Type: application/json;charset=utf-8
+Content-Length: 764
+```
+
+**Get Beneficiary Birth Data
+----
+Returns Beneficiary Birth Data in JSON format.
+
+* **URL**
+
+```ruby
+http://localhost:8083/birthcertificate/beneficiaries
+```
+
+* **Method:**
+
+```ruby
+POST
+```
+  
+* **Data Params**
+
+> **BODY raw**
+ 
+  
+```ruby
+{
+    "NAT_NO": "string"
+}
+ ```  
+ 
+* **Example Request**
+
+> **Curl**
+
+```ruby
+curl -X POST "http://10.0.52.243:8080/birthcertificate/beneficiaries" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"NAT_NO\": \"9932028787"\"}"
+```
+   
+* **Example Response**
+
+**Success Response:**
+ 
+> **Code:** 200  
+> **Description:** successful operation <br />
+      
+	 
+> **Response body :**
+
+```
+{
+  "FirstNameARA": "هديل",
+  "SecondNameARA": "فؤاد",
+  "ThirdNameARA": "سالم",
+  "FamilyNameARA": "عيسوه",
+  "FirstNameENU": "Hadeel",
+  "SecondNameENU": "Fuad",
+  "ThirdNameENU": "Salem",
+  "FamilyNameENU": "eisouh",
+  "Gender": "Female",
+  "NationalId": "9932028787",
+  "BirthDate": "1993-09-06T00:00:00.000Z",
+  "FFirstNameARA": "فؤاد",
+  "FSecondNameARA": "سالم",
+  "FFamilyNameARA": "عيسوه",
+  "MFirstNameARA": "وفاء",
+  "MSecondNameARA": "يعقوب",
+  "MFamilyNameARA": "مراد",
+  "MFirstNameENU": "Wafa",
+  "FSecondNameENU": "Salem",
+  "FFamilyNameENU": "eisouh",
+  "EnglishNameInd": false,
+  "CivilOffice": "عجلون",
+  "CivilRegistrationNumber": "024/073",
+  "ReligionARA": "Christian",
+  "SerialNumber": "9932028787",
+  "FullName": "هديل فؤاد سالم عيسوه",
+  "PlaceOfBirthARA": "عجلون",
+  "PlaceOfBirthENU": "AJLOUN",
+  "FatherReligionARA": "Christian",
+  "MotherReligionARA": "Christian",
+  "FatherReligionENU": "Christian",
+  "MotherReligionENU": "Christian",
+  "ReligionENU": "Christian",
+  "FFirstNameENU": "Fuad",
+  "WrittenDateARA": "السادس من ايلـــــــول لعام الف وتسعمائه و ثلاثة وتسعين ميلادي",
+  "WrittenDateENU": " Sixth OF September Nineteen Ninety Three",
+  "CivilStatus": "Live",
+  "MSecondNameENU": "Yacoub",
+  "MFamilyNameENU": "Murad",
+  "ArNationality": "اردني",
+  "EnNationality": "JORDANIAN",
+  "EventNumber": "00046/001692",
+  "BirthRegisterType": "3",
+  "CheckDigit": "ك",
+  "CivilOfficeENU": "AJLOUN",
+  "WantedInd": false
+}
+```
+
+>  **Response headers :**
+
+```
+Date: Thu, 24 Mar 2022 12:51:29 GMT
+Cache-Control: no-store
+Content-Type: application/json;charset=utf-8
+Content-Length: 1397
+```
+**Get Prerequisit
+----
+Returns the prerequisite for the requested service in JSON format.
+
+* **URL**
+
+```ruby
+http://localhost:8083/birthcertificate/prerequisit
+```
+
+* **Method:**
+
+```ruby
+POST
+```
+  
+* **Data Params**
+
+> **BODY raw**
+ 
+```ruby
+{
+ "ServiceType": "string",
+ "UserLanguage": "string"
+}
+ ```  
+ 
+* **Example Request**
+
+> **Curl**
+
+```ruby
+curl -X POST "http://localhost:8083/birthcertificate/prerequisit" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"ServiceType\": \"Birth_Certificate\", \"UserLanguage\": \"ar_JO\"}"
+```
+   
+* **Example Response**
+
+**Success Response:**
+ 
+> **Code:** 200  
+> **Description:** successful operation <br />
+      
+	 
+> **Response body :**
+
+```
+{
+  "Prerequisit": "شهادة ميلاد"
+}
+```
+
+>  **Response headers :**
+
+```
+Date: Wed, 23 Mar 2022 20:27:23 GMT
+Cache-Control: no-store
+Content-Type: application-Json;charset=utf-8
+Content-Length: 39
+```
+
+
+
+
+
 
 
