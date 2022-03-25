@@ -3772,7 +3772,9 @@ Returns List of Cities in JSON format.
 
 * **URL**
 
- `http://10.0.52.243:8080/birthcertificate/countries` 
+```ruby
+http://10.0.52.243:8080/birthcertificate/cities
+```
 
 * **Method:**
 
@@ -3782,27 +3784,30 @@ POST
   
 * **Data Params**
 
- > **BODY raw**
+  > **BODY raw**
  
   
- ```ruby
-{
-  "ISO_Code": "001"
-}
-```
- * **Example Request**
-  > Curl
+  ```ruby
+  {
+    "ISO_Code": "001"
+  }
+  ```  
+* **Example Request**
 
-```ruby
-curl -X POST "http://10.0.52.243:8080/birthcertificate/cities" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"ISO_Code\": \"001\"}"
-```
+  > **Curl**
+
+   ```ruby
+    curl -X POST "http://10.0.52.243:8080/birthcertificate/cities" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"ISO_Code\": \"001\"}"
+   ```
+   
 * **Example Response**
-* **Success Response:**
+   **Success Response:**
  
->  * **Code:** 200  <br />
->  * **Description:** 200  <br />
-	
- >   **Response body :**
+    > **Code:** 200  
+    > **Description:** successful operation <br />
+      
+	 
+   >   **Response body :**
 
  ```
  [
