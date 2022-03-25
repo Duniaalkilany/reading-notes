@@ -16,17 +16,24 @@ Returns List of Countries in JSON format.
  
   * **Example Request**
  
-  ```
-
-  curl --location --request POST 'http://10.0.52.243:8080/birthcertificate/countries'   
-  
-
-  ```
+```ruby
+curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
+```
   
 * **Example Response**
    
 * **Success Response:**
-      
+  > {
+>  "login": "defunkt",
+>  "id": 2,
+>  "node_id": "MDQ6VXNlcjI=",
+>  "avatar_url": "https://avatars.githubusercontent.com/u/2?v=4",
+>  "gravatar_id": "",
+>  "url": "https://api.github.com/users/defunkt",
+>  "html_url": "https://github.com/defunkt",
+>
+>   ...
+> }    
  ```
 
   [
