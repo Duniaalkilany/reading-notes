@@ -8,7 +8,9 @@ Returns List of Countries in JSON format.
 
 * **Method:**
 
-  `POST`
+```ruby
+POST
+```
   
 * **Data Params**
 
