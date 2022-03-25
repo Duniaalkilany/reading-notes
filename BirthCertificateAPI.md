@@ -3765,8 +3765,7 @@ curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
   }
 ]  
   
-
-  ```
+```
   
 **Get List Of Cities**
 ----
