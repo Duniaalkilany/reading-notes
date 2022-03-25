@@ -4613,7 +4613,7 @@ Content-Type: application/json;charset=utf-8
 Content-Length: 2584
 ```
 
-**Get Applicant Data 
+**Get Applicant Data**
 ----
 Returns the applicant's data and the list of beneficiaries associated with the applicant in JSON format.
 
@@ -4775,7 +4775,7 @@ Cache-Control: no-store
 Content-Type: application/json;charset=utf-8
 Content-Length: 1397
 ```
-**Get Prerequisit
+**Get Prerequisit**
 ----
 Returns the prerequisite for the requested service in JSON format.
 
