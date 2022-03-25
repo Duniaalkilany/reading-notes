@@ -16,9 +16,9 @@ POST
   
 * **Data Params**
 
- None
+None
  
-  * **Example Request**
+* **Example Request**
  
 ```ruby
 curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
