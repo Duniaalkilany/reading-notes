@@ -24,11 +24,11 @@ curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
    
 * **Success Response:**
   
- ```
+> ```
 
-  >[
-  >{
-  >  "ISO_Code": "675",
+  [
+  {
+   "ISO_Code": "675",
     "CountryGroup": "Non_Local",
     "Restricted": false,
     "CurrencyName": "يورو",
