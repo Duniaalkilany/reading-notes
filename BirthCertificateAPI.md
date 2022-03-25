@@ -4,8 +4,10 @@ Returns List of Countries in JSON format.
 
 * **URL**
 
- `http://10.0.52.243:8080/birthcertificate/countries` 
-
+```ruby
+http://10.0.52.243:8080/birthcertificate/countries
+```
+ 
 * **Method:**
 
 ```ruby
