@@ -27,6 +27,11 @@ curl --location --request POST 'http://10.0.52.243:8080/rest/api/v1/Countries'
 * **Example Response**
    
 * **Success Response:**
+
+```ruby
+**Code:** 200 <br />
+**Description:** successful operation <br />
+```
   
 >  * **Code:** 200 <br />
 
